@@ -9,9 +9,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Handles Customer registration/login and buying policies.
- */
 public class CustomerService {
 
     private List<Customer> customerList = new ArrayList<>();

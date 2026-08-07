@@ -1,8 +1,5 @@
 package com.insurance.model;
 
-/**
- * A Policy that is created by the Admin and can be bought by a Customer.
- */
 public class Policy {
 
     private int id;

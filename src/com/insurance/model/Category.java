@@ -1,8 +1,6 @@
 package com.insurance.model;
 
-/**
- * A top level insurance category, e.g. "Health Insurance", "Vehicle Insurance".
- */
+
 public class Category {
 
     private int id;

@@ -1,9 +1,5 @@
 package com.insurance.model;
 
-/**
- * Base class for anyone who uses the system (Admin or Customer).
- * Kept simple on purpose - beginner level code, no external libraries.
- */
 public abstract class User {
 
     private int id;
