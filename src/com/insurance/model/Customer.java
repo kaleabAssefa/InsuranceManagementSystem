@@ -1,8 +1,5 @@
 package com.insurance.model;
 
-/**
- * The Customer - registers, buys policies and views the policies they hold.
- */
 public class Customer extends User {
 
     private String phoneNumber;

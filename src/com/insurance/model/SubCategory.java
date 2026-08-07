@@ -1,9 +1,6 @@
 package com.insurance.model;
 
-/**
- * A sub category that belongs to a Category,
- * e.g. Category "Vehicle Insurance" -> SubCategory "Two Wheeler", "Four Wheeler".
- */
+
 public class SubCategory {
 
     private int id;

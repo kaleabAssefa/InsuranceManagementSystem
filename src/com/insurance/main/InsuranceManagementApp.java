@@ -9,17 +9,6 @@ import com.insurance.service.PolicyService;
 
 import java.util.Scanner;
 
-/**
- * Insurance Management System
- * -----------------------------------
- * A simple, beginner level, console based Java application
- * built with packages (model / service / main) instead of a database,
- * so it can be compiled and run directly with javac/java.
- *
- * Two roles are supported:
- *   1) Admin (policymaker) - adds Category, SubCategory and Policy.
- *   2) Customer - registers, buys a policy, and views policies held.
- */
 public class InsuranceManagementApp {
 
     private static Scanner scanner = new Scanner(System.in);
@@ -66,9 +55,6 @@ public class InsuranceManagementApp {
         scanner.close();
     }
 
-    // ---------------------------------------------------------------
-    // ADMIN FLOW
-    // ---------------------------------------------------------------
 
     private static void adminLogin() {
         System.out.print("Enter admin email: ");
@@ -175,9 +161,6 @@ public class InsuranceManagementApp {
         }
     }
 
-    // ---------------------------------------------------------------
-    // CUSTOMER FLOW
-    // ---------------------------------------------------------------
 
     private static void customerRegistration() {
         System.out.print("Enter your name: ");
@@ -252,9 +235,6 @@ public class InsuranceManagementApp {
         }
     }
 
-    // ---------------------------------------------------------------
-    // SMALL HELPERS - to safely read numbers from the console
-    // ---------------------------------------------------------------
 
     private static int readInt() {
         while (!scanner.hasNextInt()) {

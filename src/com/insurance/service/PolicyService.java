@@ -5,10 +5,7 @@ import com.insurance.model.Policy;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Handles adding and viewing Policies.
- */
-public class PolicyService {
+public class  PolicyService {
 
     private List<Policy> policyList = new ArrayList<>();
     private int policyIdCounter = 1;

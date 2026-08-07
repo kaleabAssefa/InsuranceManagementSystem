@@ -5,10 +5,6 @@ import com.insurance.model.Admin;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Handles Admin login. A default admin account is created automatically
- * so the app can be used right away (email: admin@insurance.com / password: admin123).
- */
 public class AdminService {
 
     private List<Admin> adminList = new ArrayList<>();

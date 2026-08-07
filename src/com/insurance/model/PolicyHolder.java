@@ -1,10 +1,4 @@
 package com.insurance.model;
-
-/**
- * Represents the fact that a Customer has bought a Policy.
- * This is the record we search whenever a customer wants to
- * see "the list of policies he/she holds".
- */
 public class PolicyHolder {
 
     private int id;

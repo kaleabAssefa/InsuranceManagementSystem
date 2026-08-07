@@ -6,10 +6,6 @@ import com.insurance.model.SubCategory;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Handles adding and viewing Categories and SubCategories.
- * Data is kept in memory using ArrayList (beginner friendly, no database needed).
- */
 public class CategoryService {
 
     private List<Category> categoryList = new ArrayList<>();
